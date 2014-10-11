@@ -1,0 +1,35 @@
+
+name = NukeDog profile
+description = A distrubtion profile that can be highly extended.
+core = 7.x
+theme = bartik
+
+; NukeDog Core is a module that contains the upgrade path for all NukeDog sites.
+; We use a module instead of a profile, since it we can make NukeDog
+; features profile independent.
+dependencies[] = nukedog_core
+
+; Core
+dependencies[] = menu
+dependencies[] = dblog
+dependencies[] = help
+dependencies[] = menu
+dependencies[] = taxonomy
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = taxonomy_menu_form
+;dependencies[] = dumpling
+
+; NukeDog things
+;dependencies[] = ndd_prod_comp
+;dependencies[] = ndd_prod_comp_office
+;dependencies[] = ndd_prod_comp_user
+;dependencies[] = ndd_prod_comp_client
+;dependencies[] = ndd_prod_comp_blog
+;dependencies[] = ndd_prod_comp_office_map
+;dependencies[] = ndd_markdown
+;dependencies[] = nukedog_profile_settings
+;dependencies[] = ndd_field_translation
+;dependencies[] = ndd_prod_comp_service
