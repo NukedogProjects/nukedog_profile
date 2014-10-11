@@ -66,34 +66,34 @@ function nukedog_profile_finish() {
 /**
  * Import content with the dumpling module.
  */
-function nukedog_profile_import_content() {
+/**function nukedog_profile_import_content() {
   return dumpling_content_tables_batch_definition('php',
     st('Import content'),
     st('The installation encountered an error')
   );
-}
+}**/
 
 /**
  * Import files with the dumpling module.
  */
-function nukedog_profile_import_files() {
+/**function nukedog_profile_import_files() {
   return dumpling_files_batch_definition('php',
     st('Import files'),
     st('The installation encountered an error')
   );
-}
+}**/
 
 /**
  * Enable search api after content import.
  */
-function nukedog_profile_post_enable() {
+/**function nukedog_profile_post_enable() {
   module_enable(array('ns_prod_enterprise_search'));
-}
+}**/
 
 /**
  * Implements hook_dumpling_content_tables()
  */
-function nukedog_profile_dumpling_content_tables() {
+/**function nukedog_profile_dumpling_content_tables() {
   return array(
     'panelizer_entity' => 'panelizer_entity',
     'panels_display' => 'panels_display',
@@ -103,14 +103,14 @@ function nukedog_profile_dumpling_content_tables() {
     'webform_component' => 'webform_component',
     'webform_emails' => 'webform_emails',
   );
-}
+}**/
 
 /**
  * Implements hook_dumpling_content_tables_alter().
  * Let's exclude the user tables, it screws up the installation process.
  */
-function nukedog_profile_dumpling_content_tables_alter(&$tables) {
+/**function nukedog_profile_dumpling_content_tables_alter(&$tables) {
   unset($tables['users']);
   unset($tables['users_roles']);
-}
+}**/
 
