@@ -2,7 +2,7 @@
 name = "NukeDog"
 description = "A Drupal Distribution profile that can be highly extended."
 core = "7.x"
-exclusive = "1"
+;exclusive = "1"
 ;theme = bartik
 
 ; ----------
