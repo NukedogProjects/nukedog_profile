@@ -1,35 +1,158 @@
-
-name = NukeDog profile
-description = A distrubtion profile that can be highly extended.
-core = 7.x
+; Packaging information for nukedog
+name = "NukeDog"
+description = "A Drupal Distribution profile that can be highly extended."
+core = "7.x"
 theme = bartik
 
-; NukeDog Core is a module that contains the upgrade path for all NukeDog sites.
-; We use a module instead of a profile, since it we can make NukeDog
-; features profile independent.
-dependencies[] = nukedog_core
-
-; Core
-dependencies[] = menu
-dependencies[] = dblog
-dependencies[] = help
-dependencies[] = menu
-dependencies[] = taxonomy
-
-; Contrib
+; ----------
+; Dependencies
+; ----------
+; Administration
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
-dependencies[] = taxonomy_menu_form
-;dependencies[] = dumpling
+; Adsense
+dependencies[] = adsense
+dependencies[] = adsense_click
+dependencies[] = adsense_cse
+dependencies[] = adsense_managed
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = forum
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = php
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = statistics
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = tracker
+dependencies[] = translation
+dependencies[] = trigger
+dependencies[] = update
+dependencies[] = user
+; Development
+dependencies[] = profiler_builder
+; Fields
+dependencies[] = entityreference
+; Input filters
+dependencies[] = pathologic
+; Mail
+dependencies[] = pm_block_user
+dependencies[] = pm_email_notify
+dependencies[] = privatemsg
+dependencies[] = privatemsg_filter
+dependencies[] = privatemsg_limits
+dependencies[] = privatemsg_roles
+; Media
+dependencies[] = imce
+; Multilanguage
+dependencies[] = admin_language
+; Multilingual
+dependencies[] = l10n_client
+dependencies[] = l10n_update
+dependencies[] = languageicons
+; Multilingual - Internationalization
+dependencies[] = i18n
+dependencies[] = i18n_block
+dependencies[] = i18n_contact
+dependencies[] = i18n_entityreference
+dependencies[] = i18n_field
+dependencies[] = i18n_forum
+dependencies[] = i18n_hreflang
+dependencies[] = i18n_menu
+dependencies[] = i18n_menu_select
+dependencies[] = i18n_node
+dependencies[] = i18n_path
+dependencies[] = i18n_redirect
+dependencies[] = i18n_select
+dependencies[] = i18n_string
+dependencies[] = i18n_sync
+dependencies[] = i18n_taxonomy
+dependencies[] = i18n_translation
+dependencies[] = i18n_user
+dependencies[] = i18n_variable
+dependencies[] = i18nviews
+; Other
+dependencies[] = advanced_forum
+dependencies[] = advanced_forum_more_styles
+dependencies[] = advanced_help
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = eu_cookie_compliance
+dependencies[] = faq
+dependencies[] = legal_gen
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = site_disclaimer
+dependencies[] = token
+; Path management
+dependencies[] = globalredirect
+; PayPal
+dependencies[] = paypal_donations
+; Printer, email and PDF versions
+dependencies[] = print
+dependencies[] = print_epub
+dependencies[] = print_epub_phpepub
+dependencies[] = print_mail
+dependencies[] = print_pdf
+dependencies[] = print_pdf_dompdf
+dependencies[] = print_pdf_mpdf
+dependencies[] = print_pdf_tcpdf
+dependencies[] = print_pdf_wkhtmltopdf
+dependencies[] = print_ui
+; SEO
+dependencies[] = metatag
+dependencies[] = metatag_views
+; Spam control
+dependencies[] = badbehavior
+dependencies[] = captcha
+dependencies[] = image_captcha
+; User interface
+dependencies[] = wysiwyg
+; Variable
+dependencies[] = variable
+dependencies[] = variable_admin
+dependencies[] = variable_realm
+dependencies[] = variable_store
+dependencies[] = variable_views
+; Views
+dependencies[] = views
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_ui
+; XML sitemap
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_i18n
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_node
+dependencies[] = xmlsitemap_taxonomy
+; Features
+dependencies[] = features
+dependencies[] = seo
 
-; NukeDog things
-;dependencies[] = ndd_prod_comp
-;dependencies[] = ndd_prod_comp_office
-;dependencies[] = ndd_prod_comp_user
-;dependencies[] = ndd_prod_comp_client
-;dependencies[] = ndd_prod_comp_blog
-;dependencies[] = ndd_prod_comp_office_map
-;dependencies[] = ndd_markdown
-;dependencies[] = nukedog_profile_settings
-;dependencies[] = ndd_field_translation
-;dependencies[] = ndd_prod_comp_service
