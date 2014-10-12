@@ -191,6 +191,9 @@ libraries[MPDF57][type] = "library"
 libraries[MPDF57][destination] = "libraries"
 libraries[MPDF57][download][type] = "file"
 libraries[MPDF57][download][url] = "http://mpdf1.com/repos/MPDF57.zip"
+libraries[qrcode][download][type] = "file"
+libraries[qrcode][download][url] = "http://mpdf1.com/repos/qrcode.zip"
+libraries[qrcode][destination] = "libraries/MPDF57"
 
 ; jquery.cycle
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
@@ -205,4 +208,11 @@ libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archiv
 ;libraries[bad-behavior][destination] = "libraries"
 ;libraries[bad-behavior][download][type] = "file"
 ;libraries[bad-behavior][download][url] = "" ; TODO add download URI
+
+; PHP QR Code
+libraries[phpqrcode][directory_name] = "phpqrcode"
+libraries[phpqrcode][type] = "library"
+libraries[phpqrcode][destination] = "libraries"
+libraries[phpqrcode][download][type] = "file"
+libraries[phpqrcode][download][url] = "http://downloads.sourceforge.net/project/phpqrcode/releases/phpqrcode-2010100721_1.1.4.zip"
 
