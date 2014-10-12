@@ -171,19 +171,12 @@ libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/a
 ;libraries[qrcode][download][type] = "file"
 ;libraries[qrcode][download][url] = "http://mpdf1.com/repos/qrcode.zip"
 
-; markitup
-;libraries[markitup][directory_name] = "markitup"
-;libraries[markitup][type] = "library"
-;libraries[markitup][destination] = "libraries"
-;libraries[markitup][download][type] = "file"
-;libraries[markitup][download][url] = "" ; TODO add download URI
-
 ; epub
-;libraries[epub][directory_name] = "epub"
-;libraries[epub][type] = "library"
-;libraries[epub][destination] = "libraries"
-;libraries[epub][download][type] = "file"
-;libraries[epub][download][url] = "" ; TODO add download URI
+libraries[epub][directory_name] = "epub"
+libraries[epub][type] = "library"
+libraries[epub][destination] = "libraries"
+libraries[epub][download][type] = "git"
+libraries[epub][download][url] = "https://github.com/Grandt/PHPePub"
 
 ; MPDF57
 libraries[MPDF57][directory_name] = "MPDF57"
@@ -203,11 +196,11 @@ libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip" 
 
 ; bad-behavior
-;libraries[bad-behavior][directory_name] = "bad-behavior"
-;libraries[bad-behavior][type] = "library"
-;libraries[bad-behavior][destination] = "libraries"
-;libraries[bad-behavior][download][type] = "file"
-;libraries[bad-behavior][download][url] = "" ; TODO add download URI
+libraries[bad-behavior][directory_name] = "bad-behavior"
+libraries[bad-behavior][type] = "library"
+libraries[bad-behavior][destination] = "libraries"
+libraries[bad-behavior][download][type] = "file"
+libraries[bad-behavior][download][url] = "http://downloads.wordpress.org/plugin/bad-behavior.2.2.15.zip"
 
 ; PHP QR Code
 libraries[phpqrcode][directory_name] = "phpqrcode"
