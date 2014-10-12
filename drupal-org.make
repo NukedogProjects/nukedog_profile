@@ -162,14 +162,14 @@ libraries[json2][directory_name] = "json2"
 libraries[json2][type] = "library"
 libraries[json2][destination] = "libraries"
 libraries[json2][download][type] = "file"
-libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/archive/master.zip" ; TODO add download URI
+libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/archive/master.zip"
 
 ; qrcode
 ;libraries[qrcode][directory_name] = "qrcode"
 ;libraries[qrcode][type] = "library"
 ;libraries[qrcode][destination] = "libraries"
 ;libraries[qrcode][download][type] = "file"
-;libraries[qrcode][download][url] = "http://mpdf1.com/repos/qrcode.zip" ; TODO add download URI
+;libraries[qrcode][download][url] = "http://mpdf1.com/repos/qrcode.zip"
 
 ; markitup
 ;libraries[markitup][directory_name] = "markitup"
@@ -190,14 +190,14 @@ libraries[MPDF57][directory_name] = "MPDF57"
 libraries[MPDF57][type] = "library"
 libraries[MPDF57][destination] = "libraries"
 libraries[MPDF57][download][type] = "file"
-libraries[MPDF57][download][url] = "http://mpdf1.com/repos/MPDF57.zip" ; TODO add download URI
+libraries[MPDF57][download][url] = "http://mpdf1.com/repos/MPDF57.zip"
 
 ; jquery.cycle
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][type] = "library"
 libraries[jquery.cycle][destination] = "libraries"
 libraries[jquery.cycle][download][type] = "file"
-libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip" ; TODO add download URI
+libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip" 
 
 ; bad-behavior
 ;libraries[bad-behavior][directory_name] = "bad-behavior"
